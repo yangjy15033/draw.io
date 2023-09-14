@@ -1,11 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T03:31:59.216Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Vnemk0emaRAGflasvTEP" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T03:35:15.185Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vj3NgGaRm0KHZ0thtpi4" version="21.7.4" type="github">
   <diagram name="Page-1" id="58cdce13-f638-feb5-8d6f-7d28b1aa9fa0">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nfWQo3VLu1qtxM0jTSUi-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nfWQo3VLu1qtxM0jTSUi-16" target="nfWQo3VLu1qtxM0jTSUi-33" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nfWQo3VLu1qtxM0jTSUi-68" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nfWQo3VLu1qtxM0jTSUi-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nfWQo3VLu1qtxM0jTSUi-16" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" parent="1" vertex="1">
           <mxGeometry x="140" y="175" width="30" height="30" as="geometry" />
@@ -16,11 +18,8 @@
         <mxCell id="nfWQo3VLu1qtxM0jTSUi-32" value="待审核" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
           <mxGeometry x="390" y="160" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nfWQo3VLu1qtxM0jTSUi-33" value="Subtitle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="nfWQo3VLu1qtxM0jTSUi-32" vertex="1">
+        <mxCell id="nfWQo3VLu1qtxM0jTSUi-35" value="根据提交的包裹信息，指定可用物流和费用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="nfWQo3VLu1qtxM0jTSUi-32" vertex="1">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="nfWQo3VLu1qtxM0jTSUi-35" value="Subtitle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="nfWQo3VLu1qtxM0jTSUi-32" vertex="1">
-          <mxGeometry y="60" width="160" as="geometry" />
         </mxCell>
         <mxCell id="nfWQo3VLu1qtxM0jTSUi-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="nfWQo3VLu1qtxM0jTSUi-39" target="nfWQo3VLu1qtxM0jTSUi-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -33,7 +32,7 @@
         <mxCell id="nfWQo3VLu1qtxM0jTSUi-39" value="未付款" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" parent="1" vertex="1">
           <mxGeometry x="390" y="300" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nfWQo3VLu1qtxM0jTSUi-40" value="Subtitle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="nfWQo3VLu1qtxM0jTSUi-39" vertex="1">
+        <mxCell id="nfWQo3VLu1qtxM0jTSUi-40" value="显示可用的物流方式和费用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="nfWQo3VLu1qtxM0jTSUi-39" vertex="1">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nfWQo3VLu1qtxM0jTSUi-41" value="Subtitle" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" parent="nfWQo3VLu1qtxM0jTSUi-39" vertex="1">
