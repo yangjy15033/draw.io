@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T03:10:23.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="iRqRKPJLz7lfUH7RCG46" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T03:11:11.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="soBqGKBqkVB3_OnQJOeS" version="21.7.4" type="github">
   <diagram name="第 1 页" id="pP1tO3Ii8l8RqdQOzwid">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -105,13 +105,13 @@
         <mxCell id="FNXPkqNXXuDWN-amQ0E9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FNXPkqNXXuDWN-amQ0E9-17" target="45aExs9Xjjavs16j4mOs-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FNXPkqNXXuDWN-amQ0E9-25" value="已支付补差款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FNXPkqNXXuDWN-amQ0E9-24" vertex="1" connectable="0">
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-25" value="用户支付补差款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="FNXPkqNXXuDWN-amQ0E9-24" vertex="1" connectable="0">
           <mxGeometry x="-0.15" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FNXPkqNXXuDWN-amQ0E9-17" value="补差款待支付" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="640" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="600" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FNXPkqNXXuDWN-amQ0E9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FNXPkqNXXuDWN-amQ0E9-28" target="45aExs9Xjjavs16j4mOs-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
