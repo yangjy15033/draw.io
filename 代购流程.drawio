@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T02:44:56.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="zKnIZiXlItwvYc9SIBDv" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T02:51:38.282Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="VIqfIYT2zwm14n7LCyYQ" version="21.7.4" type="github">
   <diagram name="第 1 页" id="pP1tO3Ii8l8RqdQOzwid">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -50,7 +50,20 @@
         <mxCell id="45aExs9Xjjavs16j4mOs-17" value="产品入库" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="360" y="940" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FNXPkqNXXuDWN-amQ0E9-1" value="补差审核" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNXPkqNXXuDWN-amQ0E9-1" target="FNXPkqNXXuDWN-amQ0E9-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-20" value="补差款&amp;gt;0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FNXPkqNXXuDWN-amQ0E9-13">
+          <mxGeometry x="-0.325" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FNXPkqNXXuDWN-amQ0E9-1" target="FNXPkqNXXuDWN-amQ0E9-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-1" value="补差款审核" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="335" y="400" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FNXPkqNXXuDWN-amQ0E9-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FNXPkqNXXuDWN-amQ0E9-1" target="45aExs9Xjjavs16j4mOs-9">
@@ -59,10 +72,27 @@
             <mxPoint x="450" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FNXPkqNXXuDWN-amQ0E9-4" value="首付款足够，不需要补差" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FNXPkqNXXuDWN-amQ0E9-3">
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-4" value="审核通过或者补差款刚好=0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FNXPkqNXXuDWN-amQ0E9-3">
           <mxGeometry x="-0.32" y="-1" relative="1" as="geometry">
             <mxPoint y="3" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNXPkqNXXuDWN-amQ0E9-17" target="45aExs9Xjjavs16j4mOs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-25" value="已支付补差款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FNXPkqNXXuDWN-amQ0E9-24">
+          <mxGeometry x="-0.15" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-17" value="补差款待支付" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNXPkqNXXuDWN-amQ0E9-28" target="45aExs9Xjjavs16j4mOs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-28" value="多余金额部分退款" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
