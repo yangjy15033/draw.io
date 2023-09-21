@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T07:53:27.800Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hpFxKbffdDoouGmG5kto" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T07:55:09.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="JI_nQQ_s6JT6zgaV1EtZ" version="21.7.5" type="github">
   <diagram name="第 1 页" id="pP1tO3Ii8l8RqdQOzwid">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -13,30 +13,25 @@
         <mxCell id="45aExs9Xjjavs16j4mOs-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45aExs9Xjjavs16j4mOs-3" target="45aExs9Xjjavs16j4mOs-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Dqv5JmWRgsVvrp35Kz6W-29" value="待付款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="45aExs9Xjjavs16j4mOs-8">
-          <mxGeometry x="-0.4" y="1" relative="1" as="geometry">
-            <mxPoint x="-1" y="9" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="45aExs9Xjjavs16j4mOs-3" value="用户提交代购订单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="45aExs9Xjjavs16j4mOs-3" value="用户提交代购订单&lt;br&gt;待付款" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FNXPkqNXXuDWN-amQ0E9-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45aExs9Xjjavs16j4mOs-7" target="FNXPkqNXXuDWN-amQ0E9-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="45aExs9Xjjavs16j4mOs-7" value="用户支付首付款" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="45aExs9Xjjavs16j4mOs-7" value="用户支付首付款&lt;br&gt;待审核" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="45aExs9Xjjavs16j4mOs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45aExs9Xjjavs16j4mOs-9" target="45aExs9Xjjavs16j4mOs-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3CZQ1WSbMAs0qGvyiBaF-2" value="采购第三方平台下单成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="45aExs9Xjjavs16j4mOs-12" vertex="1" connectable="0">
+        <mxCell id="3CZQ1WSbMAs0qGvyiBaF-2" value="下单成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="45aExs9Xjjavs16j4mOs-12" vertex="1" connectable="0">
           <mxGeometry x="0.1" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="45aExs9Xjjavs16j4mOs-9" value="订购中" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="350" y="530" width="120" height="60" as="geometry" />
+        <mxCell id="45aExs9Xjjavs16j4mOs-9" value="采购开始第三方平台下单&lt;br&gt;订购中" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="325" y="460" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="45aExs9Xjjavs16j4mOs-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="45aExs9Xjjavs16j4mOs-11" target="Dqv5JmWRgsVvrp35Kz6W-15" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -49,7 +44,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="45aExs9Xjjavs16j4mOs-11" value="已订购" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="350" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="45aExs9Xjjavs16j4mOs-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45aExs9Xjjavs16j4mOs-13" target="45aExs9Xjjavs16j4mOs-17" edge="1">
           <mxGeometry relative="1" as="geometry">
