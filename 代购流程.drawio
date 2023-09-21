@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T07:05:18.762Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="sxWjSVf54hU9Yeobz-WZ" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T07:50:30.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="aszwogRkZl009TS7L8wS" version="21.7.5" type="github">
   <diagram name="第 1 页" id="pP1tO3Ii8l8RqdQOzwid">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -10,9 +10,9 @@
         <mxCell id="45aExs9Xjjavs16j4mOs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="45aExs9Xjjavs16j4mOs-2" target="45aExs9Xjjavs16j4mOs-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="45aExs9Xjjavs16j4mOs-6" value="用户提交代购订单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="45aExs9Xjjavs16j4mOs-5" vertex="1" connectable="0">
-          <mxGeometry x="-0.6" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" y="8" as="offset" />
+        <mxCell id="Dqv5JmWRgsVvrp35Kz6W-27" value="用户搜索代购商品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="45aExs9Xjjavs16j4mOs-5">
+          <mxGeometry x="-0.56" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="45aExs9Xjjavs16j4mOs-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
@@ -21,12 +21,12 @@
         <mxCell id="45aExs9Xjjavs16j4mOs-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45aExs9Xjjavs16j4mOs-3" target="45aExs9Xjjavs16j4mOs-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FNXPkqNXXuDWN-amQ0E9-34" value="用户支付首付款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="45aExs9Xjjavs16j4mOs-8" vertex="1" connectable="0">
-          <mxGeometry x="-0.275" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="Dqv5JmWRgsVvrp35Kz6W-29" value="待付款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="45aExs9Xjjavs16j4mOs-8">
+          <mxGeometry x="-0.4" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="45aExs9Xjjavs16j4mOs-3" value="首付款待支付" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="45aExs9Xjjavs16j4mOs-3" value="用户提交代购订单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FNXPkqNXXuDWN-amQ0E9-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45aExs9Xjjavs16j4mOs-7" target="FNXPkqNXXuDWN-amQ0E9-1" edge="1">
@@ -37,7 +37,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="45aExs9Xjjavs16j4mOs-7" value="待审核" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="45aExs9Xjjavs16j4mOs-7" value="用户支付首付款" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="45aExs9Xjjavs16j4mOs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="45aExs9Xjjavs16j4mOs-9" target="45aExs9Xjjavs16j4mOs-11" edge="1">
