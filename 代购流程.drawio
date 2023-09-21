@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T09:27:30.386Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="E4Cx33qB_rHTu82vcMD6" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T09:29:02.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="gzo3hSfYJyk_xv3Cic7T" version="21.8.0" type="github">
   <diagram name="第 1 页" id="pP1tO3Ii8l8RqdQOzwid">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -111,14 +111,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dqv5JmWRgsVvrp35Kz6W-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Dqv5JmWRgsVvrp35Kz6W-2" target="Dqv5JmWRgsVvrp35Kz6W-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Dqv5JmWRgsVvrp35Kz6W-9" value="申请换货" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Dqv5JmWRgsVvrp35Kz6W-8" vertex="1" connectable="0">
-          <mxGeometry x="0.0435" y="3" relative="1" as="geometry">
-            <mxPoint x="15" y="-3" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Dqv5JmWRgsVvrp35Kz6W-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Dqv5JmWRgsVvrp35Kz6W-2" target="Dqv5JmWRgsVvrp35Kz6W-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -129,12 +121,6 @@
         </mxCell>
         <mxCell id="Dqv5JmWRgsVvrp35Kz6W-2" value="用户QC确认" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="335" y="740" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Dqv5JmWRgsVvrp35Kz6W-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Dqv5JmWRgsVvrp35Kz6W-7" target="Dqv5JmWRgsVvrp35Kz6W-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Dqv5JmWRgsVvrp35Kz6W-7" value="审批退换货" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dqv5JmWRgsVvrp35Kz6W-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Dqv5JmWRgsVvrp35Kz6W-10" target="Dqv5JmWRgsVvrp35Kz6W-17" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -152,15 +138,6 @@
         </mxCell>
         <mxCell id="Dqv5JmWRgsVvrp35Kz6W-17" value="商品标注已退款" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="600" y="960" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Dqv5JmWRgsVvrp35Kz6W-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Dqv5JmWRgsVvrp35Kz6W-22" target="Dqv5JmWRgsVvrp35Kz6W-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Dqv5JmWRgsVvrp35Kz6W-22" value="根据换货要求&lt;br&gt;重新生成订单" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="840" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Dqv5JmWRgsVvrp35Kz6W-24" value="商品标注已换货" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="130" y="960" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dqv5JmWRgsVvrp35Kz6W-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="45aExs9Xjjavs16j4mOs-2" target="45aExs9Xjjavs16j4mOs-3" edge="1">
           <mxGeometry relative="1" as="geometry">
