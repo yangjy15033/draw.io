@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T03:56:21.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hXtWPJcOk7AcNin8OS9b" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T05:46:53.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yusa3fTw7v2u8NgjFgU4" version="21.8.0" type="github">
   <diagram name="第 1 页" id="pP1tO3Ii8l8RqdQOzwid">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -98,7 +98,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FNXPkqNXXuDWN-amQ0E9-28" value="多余金额部分退款&lt;br&gt;扣除优惠金额" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+        <mxCell id="FNXPkqNXXuDWN-amQ0E9-28" value="多余金额部分退款" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Dqv5JmWRgsVvrp35Kz6W-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Dqv5JmWRgsVvrp35Kz6W-2" target="45aExs9Xjjavs16j4mOs-13" edge="1">
