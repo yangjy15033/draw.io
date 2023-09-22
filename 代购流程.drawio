@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T03:44:40.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vzXr4DILk1VZa-DThiDW" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T03:51:25.510Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0wrxMmxLlH6AZzpK1gU9" version="21.8.0" type="github">
   <diagram name="第 1 页" id="pP1tO3Ii8l8RqdQOzwid">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -158,8 +158,14 @@
         <mxCell id="WxssDACJkfuJ4awSDEbc-3" value="用户选择产品&lt;br&gt;提交包裹" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1090" y="130" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxssDACJkfuJ4awSDEbc-7" target="oN5ELRFt2idh2DmVAs_s-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WxssDACJkfuJ4awSDEbc-7" value="客服审核包裹" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1075" y="270" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-1" value="选择指定物流" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
