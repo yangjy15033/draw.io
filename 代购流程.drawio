@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T05:46:53.431Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yusa3fTw7v2u8NgjFgU4" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T01:42:49.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="EI5W_i28OVzK2RocW62H" version="22.0.8" type="github">
   <diagram name="第 1 页" id="pP1tO3Ii8l8RqdQOzwid">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -37,6 +37,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="790" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hr9um1D8EmSnKkyDu55F-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="45aExs9Xjjavs16j4mOs-11" target="hr9um1D8EmSnKkyDu55F-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="45aExs9Xjjavs16j4mOs-11" value="第三方商品到货&lt;br&gt;已订购" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="530" width="120" height="60" as="geometry" />
@@ -150,7 +153,7 @@
         <mxCell id="WxssDACJkfuJ4awSDEbc-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1100" y="10" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WxssDACJkfuJ4awSDEbc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WxssDACJkfuJ4awSDEbc-3" edge="1" target="oN5ELRFt2idh2DmVAs_s-10">
+        <mxCell id="WxssDACJkfuJ4awSDEbc-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WxssDACJkfuJ4awSDEbc-3" target="oN5ELRFt2idh2DmVAs_s-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1150" y="270" as="targetPoint" />
           </mxGeometry>
@@ -158,43 +161,46 @@
         <mxCell id="WxssDACJkfuJ4awSDEbc-3" value="用户选择产品&lt;br&gt;提交包裹" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1090" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oN5ELRFt2idh2DmVAs_s-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WxssDACJkfuJ4awSDEbc-7" target="oN5ELRFt2idh2DmVAs_s-1">
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="WxssDACJkfuJ4awSDEbc-7" target="oN5ELRFt2idh2DmVAs_s-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WxssDACJkfuJ4awSDEbc-7" value="审核包裹" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1075" y="320" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oN5ELRFt2idh2DmVAs_s-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oN5ELRFt2idh2DmVAs_s-1" target="oN5ELRFt2idh2DmVAs_s-3">
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oN5ELRFt2idh2DmVAs_s-1" target="oN5ELRFt2idh2DmVAs_s-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oN5ELRFt2idh2DmVAs_s-1" value="用户支付包裹&lt;br&gt;物流费用" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-1" value="用户支付包裹&lt;br&gt;物流费用" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1090" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oN5ELRFt2idh2DmVAs_s-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oN5ELRFt2idh2DmVAs_s-3" target="oN5ELRFt2idh2DmVAs_s-5">
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oN5ELRFt2idh2DmVAs_s-3" target="oN5ELRFt2idh2DmVAs_s-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oN5ELRFt2idh2DmVAs_s-3" value="仓管填写物流单号&lt;br&gt;已发货" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-3" value="仓管填写物流单号&lt;br&gt;已发货" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1090" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oN5ELRFt2idh2DmVAs_s-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oN5ELRFt2idh2DmVAs_s-5" target="oN5ELRFt2idh2DmVAs_s-7">
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oN5ELRFt2idh2DmVAs_s-5" target="oN5ELRFt2idh2DmVAs_s-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oN5ELRFt2idh2DmVAs_s-9" value="到货确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oN5ELRFt2idh2DmVAs_s-8">
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-9" value="到货确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="oN5ELRFt2idh2DmVAs_s-8" vertex="1" connectable="0">
           <mxGeometry x="-0.325" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oN5ELRFt2idh2DmVAs_s-5" value="用户等待收货" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-5" value="用户等待收货" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1090" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oN5ELRFt2idh2DmVAs_s-7" value="收货确认" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-7" value="收货确认" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1100" y="830" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oN5ELRFt2idh2DmVAs_s-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oN5ELRFt2idh2DmVAs_s-10" target="WxssDACJkfuJ4awSDEbc-7">
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="oN5ELRFt2idh2DmVAs_s-10" target="WxssDACJkfuJ4awSDEbc-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oN5ELRFt2idh2DmVAs_s-10" value="仓管核对包裹重量&lt;br&gt;确认可用物流和费用&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oN5ELRFt2idh2DmVAs_s-10" value="仓管核对包裹重量&lt;br&gt;确认可用物流和费用&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1090" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hr9um1D8EmSnKkyDu55F-3" value="商品入用户仓库" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="530" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
