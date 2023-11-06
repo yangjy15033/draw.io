@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T01:48:43.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="VpXINQBZK8kWs3yJv8NE" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T01:49:36.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="GAO4ir2Vi-lbG-eBF3_3" version="22.0.8" type="github">
   <diagram name="第 1 页" id="pP1tO3Ii8l8RqdQOzwid">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -41,7 +41,7 @@
         <mxCell id="hr9um1D8EmSnKkyDu55F-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="45aExs9Xjjavs16j4mOs-11" target="Dqv5JmWRgsVvrp35Kz6W-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hr9um1D8EmSnKkyDu55F-14" value="商品入用户仓库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hr9um1D8EmSnKkyDu55F-13">
+        <mxCell id="hr9um1D8EmSnKkyDu55F-14" value="&lt;font color=&quot;#ff3333&quot;&gt;商品入用户仓库&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];shadow=1;fillColor=#FF645E;" vertex="1" connectable="0" parent="hr9um1D8EmSnKkyDu55F-13">
           <mxGeometry x="-0.275" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
