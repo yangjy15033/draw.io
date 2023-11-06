@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T01:46:29.822Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="uDiXQNSVKyuZzyasso1i" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T01:47:35.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="qeSBzvFKm9MWn1BXH9yW" version="22.0.8" type="github">
   <diagram name="第 1 页" id="pP1tO3Ii8l8RqdQOzwid">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -106,6 +106,24 @@
         <mxCell id="hr9um1D8EmSnKkyDu55F-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Dqv5JmWRgsVvrp35Kz6W-2" target="hr9um1D8EmSnKkyDu55F-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hr9um1D8EmSnKkyDu55F-10" value="QC确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hr9um1D8EmSnKkyDu55F-8">
+          <mxGeometry x="-0.12" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hr9um1D8EmSnKkyDu55F-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Dqv5JmWRgsVvrp35Kz6W-2" target="Dqv5JmWRgsVvrp35Kz6W-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="770" />
+              <mxPoint x="270" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hr9um1D8EmSnKkyDu55F-12" value="用户提出QC精细图拍摄申请" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hr9um1D8EmSnKkyDu55F-11">
+          <mxGeometry x="-0.1172" y="4" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Dqv5JmWRgsVvrp35Kz6W-2" value="用户QC确认" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
